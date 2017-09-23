@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './scss/App.css';
+import './css/App.css';
 import GlobalHeader from '../src/static/GlobalHeader'
 import GlobalFooter from '../src/static/GlobalFooter'
 import SitesContainer from '../src/sites/SiteContainer'

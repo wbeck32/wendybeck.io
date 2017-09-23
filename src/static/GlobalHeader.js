@@ -2,10 +2,15 @@ import React from 'react';
 
 export default function GlobalHeader() {
 return (
+  <div className="GlobalHeader">
   <div className="columns">
 <div className="column">
-  <div>Global header</div>
+  <h1>Wendy Beck</h1>
+  <h2>full-stack React developer</h2>
+  <h2>{`[{'db': 'mongoDB'}, {'ORM', 'mongoose'},`}</h2>
+    <h2>{`{'server': 'Express'}, {'library': 'React'}]`}</h2>
   </div>
+</div>
 </div>
 );
 

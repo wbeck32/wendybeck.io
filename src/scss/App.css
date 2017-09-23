@@ -1,5 +1,5 @@
-@import url(../../node_modules/font-awesome/css/font-awesome.min.css);
 /*! bulma.io v0.5.3 | MIT License | github.com/jgthms/bulma */
+@import url("https://fonts.googleapis.com/css?family=Anaheim|Cutive+Mono|Faster+One|Kelly+Slab|Lato|Monofett|Oxygen|Quantico");
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -6151,29 +6151,24 @@ label.panel-block {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif; }
-
-.App {
-  text-align: center; }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px; }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white; }
-
-.App-intro {
-  font-size: large; }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
+html {
+  font-size: 12px; }
+  html body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; }
+    html body h1 {
+      font-size: 2rem; }
+    html body h2 {
+      font-size: 1.25rem; }
+    html body .GlobalHeader {
+      background-color: #0a0a0a;
+      padding: 2rem 1.5rem; }
+      html body .GlobalHeader .columns {
+        margin: 0; }
+        html body .GlobalHeader .columns .column {
+          margin: 0;
+          padding: 0;
+          font-family: 'Cutive Mono', monospace;
+          color: #23d160;
+          text-align: center; }

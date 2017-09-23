@@ -2,6 +2,7 @@ import React from 'react';
 
 export default function Card() {
   return(
+    <div className="Card">
     <div className="card">
       <div className="card-image">
         <figure className="image is-4by3">
@@ -45,6 +46,7 @@ export default function Card() {
           <p>11:09 PM - 1 Jan 2016</p>
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -1,4 +1,3 @@
-@import '../../node_modules/font-awesome/css/font-awesome.min.css';
 @import '../../node_modules/bulma/bulma.sass';
 @import url('https://fonts.googleapis.com/css?family=Anaheim|Cutive+Mono|Faster+One|Kelly+Slab|Lato|Monofett|Oxygen|Quantico');
 
@@ -10,34 +9,51 @@
 // font-family: 'Lato', sans-serif;
 // font-family: 'Oxygen', sans-serif;
 // font-family: 'Anaheim', sans-serif;
+html {
+  font-size: 12px;
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 
-.App {
-  text-align: center;
-}
+    h1 {
+      font-size: $size-3;
+      line-height: 1.5;
+    }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+    h2 {
+      font-size: $size-5;
+      line-height: 1.25;
+    }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
+    .GlobalHeader {
+      background-color: $black;
+      padding: 2rem 1.5rem;
 
-.App-intro {
-  font-size: large;
-}
+      .columns {
+        margin: 0;
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+        .column {
+
+          margin: 0;
+          padding: 0;
+          font-family: 'Cutive Mono', monospace;
+          color: $green;
+          text-align: center;
+        }
+      }
+    }
+
+    .SiteContainer {
+      .Card {
+
+      }
+
+    }
+
+    .GlobalFooter {
+
+    }
+  }
 }
