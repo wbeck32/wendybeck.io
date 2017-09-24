@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './css/App.css';
+import './scss/App.css';
+import './scss/font-awesome.css';
 import GlobalHeader from '../src/static/GlobalHeader'
 import GlobalFooter from '../src/static/GlobalFooter'
 import SitesContainer from '../src/sites/SiteContainer'

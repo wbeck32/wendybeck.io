@@ -6189,12 +6189,26 @@ html {
           color: #23d160;
           text-align: center; }
     html body .SiteContainer {
-      padding: 2vh 2vw; }
+      padding: 2vh 2vw;
+      margin-bottom: 7rem; }
+      html body .SiteContainer figure {
+        margin: 0 auto 18px auto; }
+        html body .SiteContainer figure img {
+          border-radius: 100px;
+          border: 2px solid lightgrey; }
+      html body .SiteContainer .Card img {
+        border-radius: 5px; }
+      html body .SiteContainer .Card .title {
+        font-family: 'Faster One', cursive; }
     html body .GlobalFooter {
-      margin-top: 0;
       background-color: #0a0a0a;
       color: #23d160;
       position: fixed;
       bottom: 0;
       left: 0;
-      right: 0; }
+      right: 0;
+      padding: 1rem 1.5rem;
+      height: 6rem;
+      margin-top: 0; }
+      html body .GlobalFooter span .fa {
+        color: #23d160; }

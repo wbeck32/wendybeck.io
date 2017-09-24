@@ -6158,12 +6158,28 @@ html {
     padding: 0;
     font-family: sans-serif; }
     html body h1 {
-      font-size: 2rem; }
+      font-size: 2.5rem;
+      line-height: 1;
+      font-weight: 900; }
     html body h2 {
-      font-size: 1.25rem; }
+      font-size: 1.25rem;
+      line-height: 1.1;
+      font-weight: 600;
+      margin: 5px 0; }
+    html body h3 {
+      font-size: 1rem;
+      line-height: 1.2; }
+    html body h4 {
+      font-size: 1.25rem;
+      line-height: 1.25;
+      margin: 12px 0 0 0;
+      font-weight: 600; }
+    html body .border {
+      border: 1px solid red; }
     html body .GlobalHeader {
       background-color: #0a0a0a;
-      padding: 2rem 1.5rem; }
+      padding: 2rem 1.5rem;
+      margin-bottom: 0px; }
       html body .GlobalHeader .columns {
         margin: 0; }
         html body .GlobalHeader .columns .column {
@@ -6172,3 +6188,40 @@ html {
           font-family: 'Cutive Mono', monospace;
           color: #23d160;
           text-align: center; }
+    html body .SiteContainer {
+      padding: 2vh 2vw;
+      margin-bottom: 7rem; }
+      html body .SiteContainer .columns {
+        margin: 0; }
+        html body .SiteContainer .columns .column {
+          margin: 0; }
+          html body .SiteContainer .columns .column .bio {
+            padding: 0.5rem; }
+          html body .SiteContainer .columns .column figure {
+            margin: 0 auto 18px auto; }
+            html body .SiteContainer .columns .column figure img {
+              border-radius: 100px;
+              border: 2px solid lightgrey; }
+          html body .SiteContainer .columns .column .Card img {
+            border-radius: 5px; }
+          html body .SiteContainer .columns .column .Card .card-content .title {
+            font-family: 'Quantico', sans-serif;
+            margin: 0 0 0.5rem 0; }
+          html body .SiteContainer .columns .column .Card .card-content .media-content {
+            border: 1px solid green;
+            padding: 0.5rem 0; }
+          html body .SiteContainer .columns .column .content {
+            border: 1px solid orange;
+            padding: 0.5rem 0; }
+    html body .GlobalFooter {
+      background-color: #0a0a0a;
+      color: #23d160;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 1rem 1.5rem;
+      height: 6rem;
+      margin-top: 0; }
+      html body .GlobalFooter span .fa {
+        color: #23d160; }
