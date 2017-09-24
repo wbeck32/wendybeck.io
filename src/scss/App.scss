@@ -86,6 +86,7 @@ html {
           .Card {
             img {
               border-radius: 5px;
+              margin: 0 0 1vh 0;
             }
 
             .card-content {
@@ -94,10 +95,11 @@ html {
                 margin: 0 0 0.5rem 0;
               }
               .media-content {
-                border: 1px solid green;
+                // border: 1px solid green;
                 padding: 0.5rem 0;
                 .subtitle {
                   .button {
+                    margin: 0 8px 0 0;
                     .fa {
                     }
                   }
@@ -107,7 +109,7 @@ html {
           }
 
           .content {
-            border: 1px solid orange;
+            // border: 1px solid orange;
             padding: 0.5rem 0;
 
             a {

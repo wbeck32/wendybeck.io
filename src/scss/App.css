@@ -6203,15 +6203,16 @@ html {
               border-radius: 100px;
               border: 2px solid lightgrey; }
           html body .SiteContainer .columns .column .Card img {
-            border-radius: 5px; }
+            border-radius: 5px;
+            margin: 0 0 1vh 0; }
           html body .SiteContainer .columns .column .Card .card-content .title {
             font-family: 'Quantico', sans-serif;
             margin: 0 0 0.5rem 0; }
           html body .SiteContainer .columns .column .Card .card-content .media-content {
-            border: 1px solid green;
             padding: 0.5rem 0; }
+            html body .SiteContainer .columns .column .Card .card-content .media-content .subtitle .button {
+              margin: 0 8px 0 0; }
           html body .SiteContainer .columns .column .content {
-            border: 1px solid orange;
             padding: 0.5rem 0; }
     html body .GlobalFooter {
       background-color: #0a0a0a;
