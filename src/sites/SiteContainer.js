@@ -16,7 +16,7 @@ export default class SiteContainer extends Component {
   }
 
   render() {
-    const { beerSeeker, varcity} = siteData;
+    const { beerSeeker, varcity, treksmith} = siteData;
 
     return (
       <div>
@@ -36,7 +36,7 @@ export default class SiteContainer extends Component {
               <Card state={varcity} />
             </div>
             <div className="column">
-              <Card state={varcity} />
+              <Card state={treksmith} />
             </div>
 
 
