@@ -1,33 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
-export default function Card({state} ) {
-
+export default function Card({ state }) {
   Card.propTypes = {
-    url: PropTypes.string,
+    desc : PropTypes.string,
+    github: PropTypes.string,
+    image: PropTypes.string,
     title: PropTypes.string,
+    url: PropTypes.string,
     state: PropTypes.object
   };
-console.log(78, state)
-const {url, title} = state;
-// console.log(79, url, title)
+
+  const { desc, github, image, title, url } = state;
   return (
     <div>
-      <Router>
-        <div>
-          <Route path="/varcity" component={Card} />
-          <Route path="/@@@@" component={Card} />
-        </div>
-      </Router>
       <div className="Card">
         <div className="card">
           <div className="card-image">
-            <figure className="image is-4by3">
-              <img
-                src="http://bulma.io/images/placeholders/1280x960.png"
-                alt="Placeholder"
-              />
+            <figure className="image is-square">
+              <img src={image} alt="Placeholder" />
             </figure>
           </div>
           <div className="card-content">
@@ -35,21 +26,23 @@ const {url, title} = state;
             <div className="media-content">
               <p className="subtitle is-6">
                 <span className="button is-small">
-                  <a href={url}>
+                  <a href={github}>
                     {' '}
                     <i className="fa fa-github fa-lg" aria-hidden="true" />
                   </a>
                 </span>
                 <span className="button is-small">
-                  <i className="fa fa-external-link fa-lg" aria-hidden="true" />
+                  <a href={url}>
+                    <i
+                      className="fa fa-external-link fa-lg"
+                      aria-hidden="true"
+                    />
+                  </a>
                 </span>
               </p>
             </div>
 
-            <div className="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              nec iaculis mauris.
-            </div>
+            <div className="content">{desc}</div>
           </div>
         </div>
       </div>
