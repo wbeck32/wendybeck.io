@@ -10,7 +10,7 @@ module.exports = {
   varcity: {
     desc: 'React/Redux app using Node.js as a server, Express for server routes and mongoDB/mongoose as database and ORM.',
     github: 'https://github.com/varcity-network',
-    image: 'pic',
+    image: '../images/placeholder.png',
     title: 'Varcity Network',
     url: 'https://varcity-network.herokuapp.com/'
   },

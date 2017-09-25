@@ -7,11 +7,11 @@ export default class SiteContainer extends Component {
   constructor() {
     super();
     this.state = {
-      desc: 'i walk the line',
-      github: 'hello',
-      image: 'pic',
-      title: 'cash',
-      url: 'http://google.com'
+      desc: '',
+      github: '',
+      image: '',
+      title: '',
+      url: ''
     };
   }
 
