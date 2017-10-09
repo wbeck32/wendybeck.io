@@ -10,12 +10,12 @@ module.exports = {
   varcity: {
     desc: 'React/Redux app using Node.js as a server, Express for server routes and mongoDB/mongoose as database and ORM.',
     github: 'https://github.com/varcity-network',
-    image: '../images/placeholder.png',
+    image: '../images/varcity.png',
     title: 'Varcity Network',
     url: 'https://varcity-network.herokuapp.com/'
   },
   treksmith: {
-    desc: 'MEAN stack app using Angular 1.',
+    desc: 'A MEAN stack app using Mongodb, Express, Angular 1 and Node.js. Also JWT and email/password verification.',
     github: 'https://github.com/wbeck32/road-warrior',
     image: '../images/treksmith.png',
     title: 'Treksmith',
