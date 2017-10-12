@@ -2,38 +2,36 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { BrowserRouter as Link } from 'react-router-dom';
 
-export default function Card({ state }) {
+export default function Card({ info }) {
   Card.propTypes = {
     desc : PropTypes.string,
     github: PropTypes.string,
     image: PropTypes.string,
     title: PropTypes.string,
-    url: PropTypes.string,
-    state: PropTypes.object
+    url: PropTypes.string
   };
 
-  const { desc, github, image, title, url } = state;
   return (
     <div>
       <div className="Card">
         <div className="card">
           <div className="card-image">
             <figure className="image is-square">
-              <img src={image} alt="Placeholder" />
+              <img src={info.image} alt="Placeholder" />
             </figure>
           </div>
           <div className="card-content">
-            <p className="title is-4">{title}</p>
+            <p className="title is-4">{info.title}</p>
             <div className="media-content">
               <p className="subtitle is-6">
                 <span className="button is-small">
-                  <a href={github}>
+                  <a href={info.github}>
                     {' '}
                     <i className="fa fa-github fa-lg" aria-hidden="true" />
                   </a>
                 </span>
                 <span className="button is-small">
-                  <Link href={url}>
+                  <Link href={info.url}>
                     <i
                       className="fa fa-external-link fa-lg"
                       aria-hidden="true"
@@ -43,7 +41,7 @@ export default function Card({ state }) {
               </p>
             </div>
 
-            <div className="content">{desc}</div>
+            <div className="content">{info.desc}</div>
           </div>
         </div>
       </div>

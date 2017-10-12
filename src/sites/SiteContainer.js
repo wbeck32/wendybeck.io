@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Card from './Card';
-import siteData from './siteData';
+import {beerSeeker, varcity, treksmith} from './siteData';
 
 export default class SiteContainer extends Component {
   constructor() {
@@ -15,21 +15,20 @@ export default class SiteContainer extends Component {
   }
 
   render() {
-    const { beerSeeker, varcity, treksmith} = siteData;
 
     return (
       <div>
         <div className="SiteContainer">
           <div className="columns">
             <div className="column">
-              <Card state={beerSeeker} />
+              <Card info={beerSeeker} />
             </div>
 
             <div className="column">
-              <Card state={varcity} />
+              <Card info={varcity} />
             </div>
             <div className="column">
-              <Card state={treksmith} />
+              <Card info={treksmith} />
             </div>
 
 
