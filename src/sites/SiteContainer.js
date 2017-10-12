@@ -19,12 +19,6 @@ export default class SiteContainer extends Component {
 
     return (
       <div>
-        {/* <Router>
-          <div>
-            <Route path="/beerseeker" component={Card} />
-            <Route path="/@@@@" component={Card} />
-          </div>
-        </Router> */}
         <div className="SiteContainer">
           <div className="columns">
             <div className="column">

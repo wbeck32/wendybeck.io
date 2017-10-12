@@ -3,14 +3,14 @@ import './scss/App.css';
 import './scss/font-awesome.css';
 import GlobalHeader from '../src/static/GlobalHeader'
 import GlobalFooter from '../src/static/GlobalFooter'
-import SitesContainer from '../src/sites/SiteContainer'
+import SiteContainer from '../src/sites/SiteContainer'
 
 class App extends Component {
   render() {
     return (
       <div>
         <GlobalHeader />
-        <SitesContainer />
+        <SiteContainer />
         <GlobalFooter />
       </div>
     );
