@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Card from './Card';
 import siteData from './siteData';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 export default class SiteContainer extends Component {
   constructor() {
