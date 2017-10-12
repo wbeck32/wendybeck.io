@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { BrowserRouter as Link } from 'react-router-dom';
 
 export default function Card({ info }) {
   Card.propTypes = {
@@ -8,7 +7,8 @@ export default function Card({ info }) {
     github: PropTypes.string,
     image: PropTypes.string,
     title: PropTypes.string,
-    url: PropTypes.string
+    url: PropTypes.string,
+    info: PropTypes.object
   };
 
   return (
@@ -31,12 +31,12 @@ export default function Card({ info }) {
                   </a>
                 </span>
                 <span className="button is-small">
-                  <Link href={info.url}>
+                  <a href={info.url} target="_blank">
                     <i
                       className="fa fa-external-link fa-lg"
                       aria-hidden="true"
                     />
-                  </Link>
+                  </a>
                 </span>
               </p>
             </div>
