@@ -4,7 +4,7 @@ module.exports = {
     github: 'https://github.com/wbeck32/cfpdx',
     image: '../images/beerseeker.png',
     title: 'Beer Seeker',
-    url: '/beerseeker'
+    url: 'https://house-of-wendy.com/'
   },
 
   varcity: {

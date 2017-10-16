@@ -42,6 +42,7 @@ export default class SiteContainer extends Component {
                   years experience in front-end development with HTML5, CSS3 and
                   responsive web design.
                 </p>
+                <p></p>
                 <p>
                   As a team member, I’m a diligent problem solver who
                   troubleshoots, analyzes solutions, and implements changes. I’m
